@@ -1,5 +1,3 @@
-markdown
-Copy code
 # 📚Class101 클론코딩📚
 Class101홈페이지를 기반으로 Sass, jQueru를 사용하여 만든 클론코딩입니다.
 
@@ -11,12 +9,8 @@ Class101홈페이지를 기반으로 Sass, jQueru를 사용하여 만든 클론�
 
 
  ## 기술 스택
-<div style="text-align: left;">
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
-    <div style="margin: ; text-align: left;" "text-align: left;">
-          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/sass-CC6699?style=flat-square&logo=sass&logoColor=white"> <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jQuery&logoColor=white">
-          </div>
-    </div>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/sass-CC6699?style=flat-square&logo=sass&logoColor=white"> <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=white">
+
   <br/>
 
 ## 주요 기능
