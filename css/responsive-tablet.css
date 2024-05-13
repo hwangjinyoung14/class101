@@ -36,6 +36,11 @@ input {
 }
 
 /* Responsive for Tablet */
+@media (max-width: 1160px) {
+  [class*=inner] {
+    width: 100% !important;
+  }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   /* ############ Common CSS ############ */
   section:not(.front-slider) {
@@ -137,44 +142,5 @@ input {
   /* ############ Take Course & Cart : take-course.html ############ */
   .take-course .take-course-inner {
     flex-direction: column;
-  }
-  /* ############ Class Detail : class-detail.html ############ */
-  .class-detail-image .class-detail-image-inner {
-    padding: 0 30px;
-    height: 350px;
-  }
-  .class-detail-image .class-detail-image-inner .heading h1 {
-    font-size: 24px;
-  }
-  .class-detail-image .class-detail-image-inner .heading p {
-    font-size: 16px;
-  }
-  .class-detail-image .class-detail-image-inner .cover-image img {
-    height: 250px;
-  }
-  .class-detail-full .class-detail-full-inner .class-detail-full-content {
-    flex-direction: column-reverse;
-  }
-  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-info {
-    /* Article : Class Introduce  */
-    /* Article : Class Mentor */
-  }
-  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-info .class-introduce * img {
-    width: 100%;
-  }
-  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-info .class-mentor .class-detail-wrap .mentor-profile-summary .mentor-class-button .btn-mentor-profile {
-    padding: 3px 10px;
-  }
-  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-sidebar {
-    position: static;
-  }
-  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-sidebar .class-detail-sidebar-wrap.group-required-info .overview .class-price {
-    justify-content: flex-end;
-  }
-  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-sidebar .class-detail-sidebar-wrap.group-required-info .overview .class-price .sale {
-    margin-right: 30px;
-  }
-  .class-detail-full .class-detail-full-inner .class-detail-full-content .class-detail-sidebar .class-detail-sidebar-wrap.group-required-info .overview .class-price .price-current {
-    margin-right: 50px;
   }
 }
