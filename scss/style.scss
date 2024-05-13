@@ -252,7 +252,7 @@ header {
         position: relative;
         &:before {
           content: '';
-          background: url('/images/icon-category.png');
+          background: url('../images/icon-category.png');
           width: 20px;
           height: 18px;
           display: inline-block;
@@ -305,6 +305,7 @@ header {
         font-weight: 300;
         line-height: 1.8em;
         flex: 1;
+        cursor: pointer;
 
         b {
           color: $white;
@@ -898,6 +899,7 @@ footer {
           .link-item-title {
             color: $silver-gray;
             pointer-events: none;
+            cursor: pointer;
           }
 
           .link-item-content {
@@ -1341,7 +1343,7 @@ footer {
                 height: 20px;
                 margin-right: 3px;
                 transform: translateY(3px);
-                background: url('/images/icon-custom-radio.png') no-repeat;
+                background: url('../images/icon-custom-radio.png') no-repeat;
                 background-position: left;
               }
 
@@ -1418,22 +1420,22 @@ footer {
         color: $white;
 
         &.kakao {
-          background-image: url('/images/icon-kakao.svg');
+          background-image: url('../images/icon-kakao.svg');
           background-color: #FFD912;
         }
 
         &.facebook {
-          background-image: url('/images/icon-facebook.svg');
+          background-image: url('../images/icon-facebook.svg');
           background-color: #006BE5;
         }
 
         &.apple {
-          background-image: url('/images/icon-apple.svg');
+          background-image: url('../images/icon-apple.svg');
           background-color: #333;
         }
 
         &.email {
-          background-image: url('/images/icon-email.svg');
+          background-image: url('../images/icon-email.svg');
           background-color: #fff;
           border: 1px solid $dim-gray;
           color: $dark-black;
